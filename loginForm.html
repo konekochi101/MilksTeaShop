@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&family=Lora:ital@1&family=Nanum+Myeongjo&family=Reem+Kufi:wght@400;700&display=swap" rel="stylesheet"> 
+    <title>login/signup</title>
+</head>
+<body>
+<div class="loginPage">
+
+<form class="fixIt" action="/signup" method="post">
+    <h1>Sign up if youre new!</h1>
+        <label for="username">username</label>
+        <input type="text" name="username">
+            <br>
+        <label for="password">password</label>
+        <input type="password" id="password" name="password">
+            <br><br>
+        <button class="navBar2" type="submit">signup</button>
+</form> 
+
+    <br><br><br>
+
+<form class="fixIt" action="login" method="post">
+    <h1>Already have an account? log in...</h1>
+        <label for="username">username</label>
+        <input type="text" name="myUsername">
+        <br>
+        <label for="password">password</label>
+        <input type="password" name="myPassword">
+        <br><br>
+        <button class="navBar2">login</button>
+        <br><br>
+
+</form> 
+</div>
+
+
+</body>
+</html>
